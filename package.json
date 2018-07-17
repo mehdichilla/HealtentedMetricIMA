@@ -1,0 +1,10 @@
+{
+  "name": "healthtended_metric_vis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "kibana": {
+    "version": "5.1.1"
+  },
+  "author": "Mehdi CHILLA <mehdi.chilla@serli.com>",
+  "website": "www.serli.com"
+}

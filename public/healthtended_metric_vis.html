@@ -1,0 +1,8 @@
+<div ng-controller="KbnHealthtendedMetricVisController" class="output-vis">
+    <div class="output-container" ng-repeat="output in vis.params.outputs | filter:{enabled:true}" >
+        <div class="output-value" ng-style="{'background': output.color, 'color': output.fontColor}">
+            <div ng-style="{'font-size': vis.params.fontSize+'pt'}">{{output.value}}</div>
+            <div>{{output.label}}</div>
+        </div>
+    </div>
+</div>
